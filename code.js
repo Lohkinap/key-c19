@@ -1,0 +1,5 @@
+const key = '1428X1224X1173X544X1139X1105X1275X1173X544X1241X1411X544X1105X544X1292X1241X1173';
+
+function decrypt(key) {}
+
+console.log(decrypt(key));
