@@ -1,0 +1,86 @@
+:root {
+	--black: #121212;
+	--blue: #64b5f6;
+	--green: #81c784;
+	--red: #e57373;
+	--white: #e0e0e0;
+	--yellow: #ffd54f;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	align-items: center;
+	background-color: var(--black);
+	color: var(--white);
+	display: flex;
+	font-family: 'Consolas', 'Courier New', monospace;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+code {
+	background-color: #ffffff0a;
+	border-radius: 0.3rem;
+	display: block;
+	font-family: inherit;
+	font-size: 0.9rem;
+	letter-spacing: 0.23rem;
+	line-height: 1.35;
+	padding: 0.75rem 1rem;
+	word-break: break-word;
+	white-space: pre-wrap;
+}
+
+main {
+	background-color: var(--black);
+	line-height: 1.4;
+	max-width: 600px;
+	padding: 3rem 2rem;
+	width: 90%;
+}
+
+p {
+	font-size: 1.2rem;
+	text-align: justify;
+	user-select: none;
+}
+
+.help {
+	cursor: pointer;
+}
+
+.help:active {
+	color: var(--red);
+}
+
+.black {
+	color: var(--black);
+}
+
+.blue {
+	color: var(--blue);
+}
+
+.green {
+	color: var(--green);
+}
+
+.red {
+	color: var(--red);
+}
+
+.white {
+	color: var(--white);
+}
+
+.yellow {
+	color: var(--yellow);
+}
+
+::selection {
+	background-color: var(--white);
+	color: var(--black);
+}
